@@ -20,4 +20,14 @@ public class Ceasca {
         System.out.println("Volumul: " + volumL);
         System.out.println("Toarta: " + toarta);
     }
+
+    @Override
+    public String toString() {
+        return "Ceasca:{ \n" +
+                "Forma: " + forma + "\n" +
+                "Culoarea: " + culoare + "\n" +
+                "Materialul: " + material + "\n" +
+                "Volumul: " + volumL + "\n" +
+                "Toarta: " + toarta + "}";
+    }
 }

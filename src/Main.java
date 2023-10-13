@@ -5,5 +5,9 @@ public class Main {
         Ceasca ceasca = new Ceasca("cilindrica", "alba", "ceramica", 0.75, true);
 
         ceasca.afis();
+
+        System.out.println();
+
+        System.out.println(ceasca.toString());
     }
 }
