@@ -9,5 +9,11 @@ public class Main {
         System.out.println();
 
         System.out.println(ceasca.toString());
+
+        Scanner scanner = new Scanner(System.in);
+        String culoare = scanner.next();
+        ceasca.setCuloare(culoare);
+        System.out.println(ceasca.getCuloare());
+        System.out.println(ceasca.toString());
     }
 }

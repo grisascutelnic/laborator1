@@ -13,6 +13,38 @@ public class Ceasca {
         this.toarta = toarta;
     }
 
+    public String getForma() {
+        return this.forma;
+    }
+    public String getCuloare() {
+        return this.culoare;
+    }
+    public String getMaterial() {
+        return this.material;
+    }
+    public double getVolumL() {
+        return this.volumL;
+    }
+    public boolean getToarta() {
+        return this.toarta;
+    }
+
+    public void setForma(String forma) {
+        this.forma = forma;
+    }
+    public void setCuloare(String culoare) {
+        this.culoare = culoare;
+    }
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+    public void setVolumL(double volumL) {
+        this.volumL = volumL;
+    }
+    public void setToarta(boolean toarta) {
+        this.toarta = toarta;
+    }
+
     public void afis() {
         System.out.println("Forma: " + forma);
         System.out.println("Culoarea: " + culoare);
